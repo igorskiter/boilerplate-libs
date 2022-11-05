@@ -9,7 +9,9 @@
     "/lib"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepack": "yarn build",
+    "build": "rollup -c",
+    "watch": "rollup -cw"
   },
   "keywords": [],
   "author": "Igorskiter <igor.nw3@gmail.com> (https://github.com/igorskiter)",

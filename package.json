@@ -8,6 +8,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "lerna run build --scope example",
+    "watch": "lerna run watch --scope example",
+    "package": "lerna exec --scope example -- npm pack"
+  },
   "devDependencies": {
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
