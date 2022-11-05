@@ -1,0 +1,17 @@
+{
+  "name": "boilerplate-libs",
+  "private": true,
+  "description": "Boilerplate to create libs with typescript",
+  "keywords": [],
+  "author": "Igorskiter <igor.nw3@gmail.com> (https://github.com/igorskiter)",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5",
+    "lerna": "^4.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
