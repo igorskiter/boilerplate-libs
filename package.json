@@ -3,6 +3,7 @@
   "private": true,
   "description": "Boilerplate to create libs with typescript",
   "keywords": [],
+  "license": "BSD-2-Clause",
   "author": "Igorskiter <igor.nw3@gmail.com> (https://github.com/igorskiter)",
   "workspaces": [
     "packages/*"
